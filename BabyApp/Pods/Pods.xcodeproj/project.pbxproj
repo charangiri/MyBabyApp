@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AE4F8CD5BE03865CAAB08711BCE756 /* RSDFDatePickerDaysOfWeekView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE6C041D674790E3455348FDA30F018 /* RSDFDatePickerDaysOfWeekView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F570073A10DD0B3E190CE6E8687ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		189D96645A172ED2F1800FC33398CA4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		1AA684A86F7B19F27BBDC7575651D115 /* RSDayFlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 12AD0E1485FDBA784280CFE67309C65E /* RSDayFlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2713FDE9B8655DA892DE5DFBBC749F22 /* RSDFDatePickerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E591203E8E4F9D0AC95ED6E3A62B2B /* RSDFDatePickerCollectionView.m */; };
+		29B9D7A46DF76580D90AD3942605B2CD /* Pods-BabyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C07C8F5D82A08890E0B31E51448BA459 /* Pods-BabyApp-dummy.m */; };
+		2AF0CF28E3E451F040530574B33BF79A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		31A39D7882D8D8F940FD099441479530 /* RSDayFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 761D2A7432FCA25B72C56F3A0D5A11C3 /* RSDayFlow-dummy.m */; };
+		3EBEF4942D571A3F7181E238A073A3E8 /* NSCalendar+RSDFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE8361C22F5E6D58D5A5E95B84FF372 /* NSCalendar+RSDFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B56956A1DEE0033DE0E196D5EA9818 /* RSDFDatePickerCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CB214866541E0259CC7CCE19B6726D /* RSDFDatePickerCollectionViewLayout.m */; };
+		50710DECB260829CAD48CE1D3944D974 /* RSDFDatePickerCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C301DD7DA06FB9DD884758273B88EB77 /* RSDFDatePickerCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5996073884D67A68B33DAED0CDD2A3E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */; };
+		6106AA14EA2486343A04BD61597C4409 /* RSDFDatePickerMonthHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CD7806B02503D180785A500243BB3 /* RSDFDatePickerMonthHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64F862356EAA3D9548475EBF88A3055C /* JTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CD2E6B3A00EE7378AB01A1B8196770 /* JTChartView.m */; };
+		87FD7ED0FD0B61844628DEB24D6633DF /* RSDFDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F9561AC6D90B34C740891500B610FC9 /* RSDFDatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		884684911634191191DA8B137DAEEEB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */; };
+		91503A47F8745228AEC242B2C2A401DF /* NSCalendar+RSDFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E5803903149E61A53947279EC2544C /* NSCalendar+RSDFAdditions.m */; };
+		9AFE99422A936D1A1EA1B106667561D8 /* RSDFDatePickerDaysOfWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = D276492B6A22B356FFEC9F6185AE19E0 /* RSDFDatePickerDaysOfWeekView.m */; };
+		9C7EF6BF0F975F833AF53D47E1FA8E29 /* RSDFDatePickerDayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0C6F38ABE712E6881CC82414596713 /* RSDFDatePickerDayCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B86C841F7406DE4F2EFBEF71BB185A82 /* JTChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D74CF238743E3DCC4279C5D6789ACEC /* JTChartView-dummy.m */; };
+		BFC1A5AA0A1EDB2CD5B38D2F2494157E /* RSDFDatePickerView+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1B118064CE951F231E6D7D4E30A655 /* RSDFDatePickerView+Protected.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8CE973608604178ED723E293EE5A627 /* JTChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = C2CCB0D26BF7564CC393976361BE85E2 /* JTChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7399F20697174BE7475FA8460606B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91413329813FA6FE5A78842159E69621 /* Foundation.framework */; };
+		D29EBA105F2A49A52E7466B05BFE96FE /* RSDFDatePickerDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 822AE816AB42880F0E2FE1FC7B7195EE /* RSDFDatePickerDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D85CEE3838D4193037F2247C545D2D8E /* RSDFDatePickerDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30508BC3058588385498E5BE201E64CB /* RSDFDatePickerDayCell.m */; };
+		E8F3AC530819DD0C0F306E65100A9C42 /* RSDFDatePickerCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB0C58D796B461EDB4D108F2388EA1B8 /* RSDFDatePickerCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F407EA4BE412947040C7A5089BFA7F7B /* RSDFDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B803A3FA9081F56D5EF502DB57264FF6 /* RSDFDatePickerView.m */; };
+		FFF99F112904690AC9D2D01F767DEA1F /* RSDFDatePickerMonthHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1D20CCA3BCCC624AD61A6C9D3AF451 /* RSDFDatePickerMonthHeader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5934D90772B038E76AF8B1C48B7B08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3672CF824ABB0B09F5FF111FB1364A4B;
+			remoteInfo = RSDayFlow;
+		};
+		F502DEE49AEE63F5F411EB8D8C6D395C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B0C86F1F8905640462F7DAABC434948;
+			remoteInfo = JTChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077C4E000DD3F5835E1584C3D90D1D12 /* JTChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTChartView.xcconfig; sourceTree = "<group>"; };
+		0EE6C041D674790E3455348FDA30F018 /* RSDFDatePickerDaysOfWeekView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDaysOfWeekView.h; path = RSDayFlow/RSDFDatePickerDaysOfWeekView.h; sourceTree = "<group>"; };
+		104F8CDEA21A423EB159E066F244B2D3 /* Pods-BabyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BabyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12AD0E1485FDBA784280CFE67309C65E /* RSDayFlow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDayFlow.h; path = RSDayFlow/RSDayFlow.h; sourceTree = "<group>"; };
+		26CB214866541E0259CC7CCE19B6726D /* RSDFDatePickerCollectionViewLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerCollectionViewLayout.m; path = RSDayFlow/RSDFDatePickerCollectionViewLayout.m; sourceTree = "<group>"; };
+		27C6558945C666737C93D812CC08E263 /* Pods-BabyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BabyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C0CD7806B02503D180785A500243BB3 /* RSDFDatePickerMonthHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerMonthHeader.h; path = RSDayFlow/RSDFDatePickerMonthHeader.h; sourceTree = "<group>"; };
+		2D74CF238743E3DCC4279C5D6789ACEC /* JTChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTChartView-dummy.m"; sourceTree = "<group>"; };
+		2F9561AC6D90B34C740891500B610FC9 /* RSDFDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerView.h; path = RSDayFlow/RSDFDatePickerView.h; sourceTree = "<group>"; };
+		30508BC3058588385498E5BE201E64CB /* RSDFDatePickerDayCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerDayCell.m; path = RSDayFlow/RSDFDatePickerDayCell.m; sourceTree = "<group>"; };
+		5143B08A79713A2ED3D0F96D0F0693C4 /* RSDayFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSDayFlow-prefix.pch"; sourceTree = "<group>"; };
+		5B35A35CEF64B881C6317707AA8CF3D5 /* libRSDayFlow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRSDayFlow.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E5803903149E61A53947279EC2544C /* NSCalendar+RSDFAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCalendar+RSDFAdditions.m"; path = "RSDayFlow/NSCalendar+RSDFAdditions.m"; sourceTree = "<group>"; };
+		761D2A7432FCA25B72C56F3A0D5A11C3 /* RSDayFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSDayFlow-dummy.m"; sourceTree = "<group>"; };
+		7B56875597D50743532C31D20A04FAC3 /* Pods-BabyApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BabyApp-resources.sh"; sourceTree = "<group>"; };
+		822AE816AB42880F0E2FE1FC7B7195EE /* RSDFDatePickerDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDate.h; path = RSDayFlow/RSDFDatePickerDate.h; sourceTree = "<group>"; };
+		867C2A30648A9B817BC7CCE8EFDAD239 /* Pods-BabyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		884D8329BA8F57BB0219CC8239D77D2F /* RSDayFlow.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSDayFlow.xcconfig; sourceTree = "<group>"; };
+		91413329813FA6FE5A78842159E69621 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93E591203E8E4F9D0AC95ED6E3A62B2B /* RSDFDatePickerCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerCollectionView.m; path = RSDayFlow/RSDFDatePickerCollectionView.m; sourceTree = "<group>"; };
+		B6C1131516B619C7F5E52E56823EB627 /* Pods-BabyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BabyApp-frameworks.sh"; sourceTree = "<group>"; };
+		B7D4C1D08E5B5A4561A245478DFB4A88 /* libPods-BabyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BabyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B803A3FA9081F56D5EF502DB57264FF6 /* RSDFDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerView.m; path = RSDayFlow/RSDFDatePickerView.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAF55EAF20E706483D1565C72B441065 /* Pods-BabyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BabyApp.release.xcconfig"; sourceTree = "<group>"; };
+		BB0C58D796B461EDB4D108F2388EA1B8 /* RSDFDatePickerCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerCollectionView.h; path = RSDayFlow/RSDFDatePickerCollectionView.h; sourceTree = "<group>"; };
+		C07C8F5D82A08890E0B31E51448BA459 /* Pods-BabyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BabyApp-dummy.m"; sourceTree = "<group>"; };
+		C2CCB0D26BF7564CC393976361BE85E2 /* JTChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTChartView.h; path = JTChartView/JTChartView.h; sourceTree = "<group>"; };
+		C301DD7DA06FB9DD884758273B88EB77 /* RSDFDatePickerCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerCollectionViewLayout.h; path = RSDayFlow/RSDFDatePickerCollectionViewLayout.h; sourceTree = "<group>"; };
+		CC0C6F38ABE712E6881CC82414596713 /* RSDFDatePickerDayCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSDFDatePickerDayCell.h; path = RSDayFlow/RSDFDatePickerDayCell.h; sourceTree = "<group>"; };
+		CE1B118064CE951F231E6D7D4E30A655 /* RSDFDatePickerView+Protected.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSDFDatePickerView+Protected.h"; path = "RSDayFlow/RSDFDatePickerView+Protected.h"; sourceTree = "<group>"; };
+		D276492B6A22B356FFEC9F6185AE19E0 /* RSDFDatePickerDaysOfWeekView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerDaysOfWeekView.m; path = RSDayFlow/RSDFDatePickerDaysOfWeekView.m; sourceTree = "<group>"; };
+		D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBE8361C22F5E6D58D5A5E95B84FF372 /* NSCalendar+RSDFAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCalendar+RSDFAdditions.h"; path = "RSDayFlow/NSCalendar+RSDFAdditions.h"; sourceTree = "<group>"; };
+		E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EA1D20CCA3BCCC624AD61A6C9D3AF451 /* RSDFDatePickerMonthHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSDFDatePickerMonthHeader.m; path = RSDayFlow/RSDFDatePickerMonthHeader.m; sourceTree = "<group>"; };
+		F02BBF92C46A7722B1A68C6C4E7F19C9 /* libJTChartView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTChartView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CD2E6B3A00EE7378AB01A1B8196770 /* JTChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTChartView.m; path = JTChartView/JTChartView.m; sourceTree = "<group>"; };
+		F4C82021362921837FDF5D739BB494D0 /* JTChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTChartView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AC9EC10AA7DC1EB0CFD2324A7917A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7399F20697174BE7475FA8460606B5 /* Foundation.framework in Frameworks */,
+				884684911634191191DA8B137DAEEEB5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6FFF4173D42C4FE7DD653567C15742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189D96645A172ED2F1800FC33398CA4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FD9081E65F1446C9A78A6EB641A2AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF0CF28E3E451F040530574B33BF79A /* Foundation.framework in Frameworks */,
+				5996073884D67A68B33DAED0CDD2A3E8 /* QuartzCore.framework in Frameworks */,
+				07F570073A10DD0B3E190CE6E8687ADB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25B8FA85AEF9A32AE31E272FBA220228 /* Pods-BabyApp */ = {
+			isa = PBXGroup;
+			children = (
+				104F8CDEA21A423EB159E066F244B2D3 /* Pods-BabyApp-acknowledgements.markdown */,
+				27C6558945C666737C93D812CC08E263 /* Pods-BabyApp-acknowledgements.plist */,
+				C07C8F5D82A08890E0B31E51448BA459 /* Pods-BabyApp-dummy.m */,
+				B6C1131516B619C7F5E52E56823EB627 /* Pods-BabyApp-frameworks.sh */,
+				7B56875597D50743532C31D20A04FAC3 /* Pods-BabyApp-resources.sh */,
+				867C2A30648A9B817BC7CCE8EFDAD239 /* Pods-BabyApp.debug.xcconfig */,
+				BAF55EAF20E706483D1565C72B441065 /* Pods-BabyApp.release.xcconfig */,
+			);
+			name = "Pods-BabyApp";
+			path = "Target Support Files/Pods-BabyApp";
+			sourceTree = "<group>";
+		};
+		3DE3C34B421B96C549799906CEC24933 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25B8FA85AEF9A32AE31E272FBA220228 /* Pods-BabyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		423C48CDC395DCA75B6F5A7A716882CC /* JTChartView */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCB0D26BF7564CC393976361BE85E2 /* JTChartView.h */,
+				F0CD2E6B3A00EE7378AB01A1B8196770 /* JTChartView.m */,
+				7ED7D8D995CBE756DB927C290C74B16B /* Support Files */,
+			);
+			path = JTChartView;
+			sourceTree = "<group>";
+		};
+		4CE7D59AF550666B1E9A7292E54D8FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F02BBF92C46A7722B1A68C6C4E7F19C9 /* libJTChartView.a */,
+				B7D4C1D08E5B5A4561A245478DFB4A88 /* libPods-BabyApp.a */,
+				5B35A35CEF64B881C6317707AA8CF3D5 /* libRSDayFlow.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				ADD3EB07C8332B94FFD0A0B2AF8FE524 /* Pods */,
+				4CE7D59AF550666B1E9A7292E54D8FC1 /* Products */,
+				3DE3C34B421B96C549799906CEC24933 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ED7D8D995CBE756DB927C290C74B16B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				077C4E000DD3F5835E1584C3D90D1D12 /* JTChartView.xcconfig */,
+				2D74CF238743E3DCC4279C5D6789ACEC /* JTChartView-dummy.m */,
+				F4C82021362921837FDF5D739BB494D0 /* JTChartView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTChartView";
+			sourceTree = "<group>";
+		};
+		ADD3EB07C8332B94FFD0A0B2AF8FE524 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				423C48CDC395DCA75B6F5A7A716882CC /* JTChartView */,
+				E66DD3DC2E2EEEB29A169A8E25B88F99 /* RSDayFlow */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B771C1C6AB167645C713D97C190DCA30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				884D8329BA8F57BB0219CC8239D77D2F /* RSDayFlow.xcconfig */,
+				761D2A7432FCA25B72C56F3A0D5A11C3 /* RSDayFlow-dummy.m */,
+				5143B08A79713A2ED3D0F96D0F0693C4 /* RSDayFlow-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSDayFlow";
+			sourceTree = "<group>";
+		};
+		DA23025FEDA7F7FE2AACB2532BD80D14 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				91413329813FA6FE5A78842159E69621 /* Foundation.framework */,
+				E642B1A057ADA2ABEF90BE2417F349C1 /* QuartzCore.framework */,
+				D9DE615671731BF3AEFB3CB1F984FA8F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E66DD3DC2E2EEEB29A169A8E25B88F99 /* RSDayFlow */ = {
+			isa = PBXGroup;
+			children = (
+				DBE8361C22F5E6D58D5A5E95B84FF372 /* NSCalendar+RSDFAdditions.h */,
+				62E5803903149E61A53947279EC2544C /* NSCalendar+RSDFAdditions.m */,
+				12AD0E1485FDBA784280CFE67309C65E /* RSDayFlow.h */,
+				BB0C58D796B461EDB4D108F2388EA1B8 /* RSDFDatePickerCollectionView.h */,
+				93E591203E8E4F9D0AC95ED6E3A62B2B /* RSDFDatePickerCollectionView.m */,
+				C301DD7DA06FB9DD884758273B88EB77 /* RSDFDatePickerCollectionViewLayout.h */,
+				26CB214866541E0259CC7CCE19B6726D /* RSDFDatePickerCollectionViewLayout.m */,
+				822AE816AB42880F0E2FE1FC7B7195EE /* RSDFDatePickerDate.h */,
+				CC0C6F38ABE712E6881CC82414596713 /* RSDFDatePickerDayCell.h */,
+				30508BC3058588385498E5BE201E64CB /* RSDFDatePickerDayCell.m */,
+				0EE6C041D674790E3455348FDA30F018 /* RSDFDatePickerDaysOfWeekView.h */,
+				D276492B6A22B356FFEC9F6185AE19E0 /* RSDFDatePickerDaysOfWeekView.m */,
+				2C0CD7806B02503D180785A500243BB3 /* RSDFDatePickerMonthHeader.h */,
+				EA1D20CCA3BCCC624AD61A6C9D3AF451 /* RSDFDatePickerMonthHeader.m */,
+				2F9561AC6D90B34C740891500B610FC9 /* RSDFDatePickerView.h */,
+				B803A3FA9081F56D5EF502DB57264FF6 /* RSDFDatePickerView.m */,
+				CE1B118064CE951F231E6D7D4E30A655 /* RSDFDatePickerView+Protected.h */,
+				B771C1C6AB167645C713D97C190DCA30 /* Support Files */,
+			);
+			path = RSDayFlow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59DED8AE937ABFC7CCE1AA53974147CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CE973608604178ED723E293EE5A627 /* JTChartView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EFB18D3F6867780E95E43D4045CA5B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBEF4942D571A3F7181E238A073A3E8 /* NSCalendar+RSDFAdditions.h in Headers */,
+				1AA684A86F7B19F27BBDC7575651D115 /* RSDayFlow.h in Headers */,
+				E8F3AC530819DD0C0F306E65100A9C42 /* RSDFDatePickerCollectionView.h in Headers */,
+				50710DECB260829CAD48CE1D3944D974 /* RSDFDatePickerCollectionViewLayout.h in Headers */,
+				D29EBA105F2A49A52E7466B05BFE96FE /* RSDFDatePickerDate.h in Headers */,
+				9C7EF6BF0F975F833AF53D47E1FA8E29 /* RSDFDatePickerDayCell.h in Headers */,
+				03AE4F8CD5BE03865CAAB08711BCE756 /* RSDFDatePickerDaysOfWeekView.h in Headers */,
+				6106AA14EA2486343A04BD61597C4409 /* RSDFDatePickerMonthHeader.h in Headers */,
+				BFC1A5AA0A1EDB2CD5B38D2F2494157E /* RSDFDatePickerView+Protected.h in Headers */,
+				87FD7ED0FD0B61844628DEB24D6633DF /* RSDFDatePickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B0C86F1F8905640462F7DAABC434948 /* JTChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6117F244AC12AC991C0D051E2328C081 /* Build configuration list for PBXNativeTarget "JTChartView" */;
+			buildPhases = (
+				5DB26E96BBE7B983DDA2A0CB968C6059 /* Sources */,
+				43AC9EC10AA7DC1EB0CFD2324A7917A0 /* Frameworks */,
+				59DED8AE937ABFC7CCE1AA53974147CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTChartView;
+			productName = JTChartView;
+			productReference = F02BBF92C46A7722B1A68C6C4E7F19C9 /* libJTChartView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3672CF824ABB0B09F5FF111FB1364A4B /* RSDayFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC20F0A4D978AA5C13B36908989DEB19 /* Build configuration list for PBXNativeTarget "RSDayFlow" */;
+			buildPhases = (
+				69A8F512446CB3DC5EA4F822FD11AB17 /* Sources */,
+				C9FD9081E65F1446C9A78A6EB641A2AA /* Frameworks */,
+				87EFB18D3F6867780E95E43D4045CA5B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDayFlow;
+			productName = RSDayFlow;
+			productReference = 5B35A35CEF64B881C6317707AA8CF3D5 /* libRSDayFlow.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		803D516D4C57FA186CB36AC1F461F9BC /* Pods-BabyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF95BC586DBE70D35F9C11192C6FAAF2 /* Build configuration list for PBXNativeTarget "Pods-BabyApp" */;
+			buildPhases = (
+				965B0DF9046287FFCF80FEC496B355C2 /* Sources */,
+				8D6FFF4173D42C4FE7DD653567C15742 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0366B0609BDBA7213FC79B00EB2F156D /* PBXTargetDependency */,
+				EAA45CB68460859B18F80F45935965B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-BabyApp";
+			productName = "Pods-BabyApp";
+			productReference = B7D4C1D08E5B5A4561A245478DFB4A88 /* libPods-BabyApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CE7D59AF550666B1E9A7292E54D8FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B0C86F1F8905640462F7DAABC434948 /* JTChartView */,
+				803D516D4C57FA186CB36AC1F461F9BC /* Pods-BabyApp */,
+				3672CF824ABB0B09F5FF111FB1364A4B /* RSDayFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DB26E96BBE7B983DDA2A0CB968C6059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86C841F7406DE4F2EFBEF71BB185A82 /* JTChartView-dummy.m in Sources */,
+				64F862356EAA3D9548475EBF88A3055C /* JTChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69A8F512446CB3DC5EA4F822FD11AB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91503A47F8745228AEC242B2C2A401DF /* NSCalendar+RSDFAdditions.m in Sources */,
+				31A39D7882D8D8F940FD099441479530 /* RSDayFlow-dummy.m in Sources */,
+				2713FDE9B8655DA892DE5DFBBC749F22 /* RSDFDatePickerCollectionView.m in Sources */,
+				49B56956A1DEE0033DE0E196D5EA9818 /* RSDFDatePickerCollectionViewLayout.m in Sources */,
+				D85CEE3838D4193037F2247C545D2D8E /* RSDFDatePickerDayCell.m in Sources */,
+				9AFE99422A936D1A1EA1B106667561D8 /* RSDFDatePickerDaysOfWeekView.m in Sources */,
+				FFF99F112904690AC9D2D01F767DEA1F /* RSDFDatePickerMonthHeader.m in Sources */,
+				F407EA4BE412947040C7A5089BFA7F7B /* RSDFDatePickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B0DF9046287FFCF80FEC496B355C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B9D7A46DF76580D90AD3942605B2CD /* Pods-BabyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0366B0609BDBA7213FC79B00EB2F156D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTChartView;
+			target = 2B0C86F1F8905640462F7DAABC434948 /* JTChartView */;
+			targetProxy = F502DEE49AEE63F5F411EB8D8C6D395C /* PBXContainerItemProxy */;
+		};
+		EAA45CB68460859B18F80F45935965B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSDayFlow;
+			target = 3672CF824ABB0B09F5FF111FB1364A4B /* RSDayFlow */;
+			targetProxy = E5934D90772B038E76AF8B1C48B7B08B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05B08D31132D29326D341B01F3900D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077C4E000DD3F5835E1584C3D90D1D12 /* JTChartView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTChartView/JTChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22DB339C8EA82797326F38EB21E3F75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF55EAF20E706483D1565C72B441065 /* Pods-BabyApp.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5EB46DC61CE98B5F28F3F481DA3D8EC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077C4E000DD3F5835E1584C3D90D1D12 /* JTChartView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTChartView/JTChartView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6BFA197316FD45990F30DC9352CEEA04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884D8329BA8F57BB0219CC8239D77D2F /* RSDayFlow.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSDayFlow/RSDayFlow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EC767EF5EEB7A80237940AD530B04E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884D8329BA8F57BB0219CC8239D77D2F /* RSDayFlow.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSDayFlow/RSDayFlow-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED0BACF36A9071CDFF8F89676D1A16F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 867C2A30648A9B817BC7CCE8EFDAD239 /* Pods-BabyApp.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6117F244AC12AC991C0D051E2328C081 /* Build configuration list for PBXNativeTarget "JTChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EB46DC61CE98B5F28F3F481DA3D8EC8 /* Debug */,
+				05B08D31132D29326D341B01F3900D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF95BC586DBE70D35F9C11192C6FAAF2 /* Build configuration list for PBXNativeTarget "Pods-BabyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0BACF36A9071CDFF8F89676D1A16F8 /* Debug */,
+				22DB339C8EA82797326F38EB21E3F75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC20F0A4D978AA5C13B36908989DEB19 /* Build configuration list for PBXNativeTarget "RSDayFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA197316FD45990F30DC9352CEEA04 /* Debug */,
+				7EC767EF5EEB7A80237940AD530B04E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

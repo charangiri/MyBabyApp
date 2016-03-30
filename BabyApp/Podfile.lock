@@ -1,0 +1,13 @@
+PODS:
+  - JTChartView (1.0.0)
+  - RSDayFlow (1.4.1)
+
+DEPENDENCIES:
+  - JTChartView
+  - RSDayFlow
+
+SPEC CHECKSUMS:
+  JTChartView: c329db5d9cd15967cf6cbc5d828cc22c9427eea6
+  RSDayFlow: 24e9fb2f1f2cdbcb82e33345ae7fcc55309f746c
+
+COCOAPODS: 0.39.0
