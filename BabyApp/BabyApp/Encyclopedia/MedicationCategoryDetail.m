@@ -20,7 +20,7 @@ NSArray *arraymedicationCategoryDetail;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-     self.navigationItem.title = [[NSUserDefaults standardUserDefaults] objectForKey:@"selectedMedicationLbl"];
+    self.navigationItem.title = [[NSUserDefaults standardUserDefaults] objectForKey:@"selectedMedicationLbl"];
     
     
     arraymedicationCategoryDetail=[NSArray arrayWithObjects:@"Lorem Ipsum",@"SIDE EFFECTS",@"DOSAGE",@"OTHER INFO", nil];
@@ -32,9 +32,9 @@ NSArray *arraymedicationCategoryDetail;
     medicationCategoryDetailTable.dataSource=self;
     medicationCategoryDetailTable.delegate=self;
     
-   // [medicationCategoryDetailTable setBounces:NO];
+    // [medicationCategoryDetailTable setBounces:NO];
     
-   // [medicationCategoryDetailTable setBackgroundColor:[UIColor blueColor]];
+    // [medicationCategoryDetailTable setBackgroundColor:[UIColor blueColor]];
     // Do any additional setup after loading the view.
 }
 
@@ -76,19 +76,19 @@ NSArray *arraymedicationCategoryDetail;
         [lblName setTextColor:[UIColor whiteColor]];
         [lblName2 setTextColor:[UIColor whiteColor]];
         [lblName setFont:[UIFont fontWithName:@"HelveticaNeue-Bold" size:20]];
-
+        
         [lblName2 setText:@"Prescription \n \n Lorem Ipsum proin gravida nibh vel velit auctor aliquet . Aenean sollicitudin .lorem quis bibendum auctor , nist elit consequat del velit quis aliquet.lorem quis bibendum auctor , nist elit consequat del velit quis aliquet.Lorem Ipsum proin gravida nibh vel velit auctor aliquet . Aenean sollicitudin .lorem quis bibendum auctor."];
-
+        
         
         lblName2.frame=CGRectMake(10,40,medicationCategoryDetailTable.frame.size.width-30,110);
     }
     else if(indexPath.row==1)
     {
- [cell setBackgroundColor:[UIColor colorWithRed:220.0/255.0 green:220.0/255.0 blue:223.0/255.0 alpha:1.0]];
+        [cell setBackgroundColor:[UIColor colorWithRed:220.0/255.0 green:220.0/255.0 blue:223.0/255.0 alpha:1.0]];
         [lblName2 setTextColor:[UIColor grayColor]];
         [lblName setTextColor:[UIColor colorWithRed:49.0/255.0 green:191.0/255.0 blue:180.0/255.0 alpha:1.0]];
         [lblName2 setText:@"Lorem Ipsum proin gravida nibh vel velit auctor aliquet . Aenean sollicitudin .lorem quis"];
-
+        
     }
     else if(indexPath.row==2)
     {
@@ -105,7 +105,7 @@ NSArray *arraymedicationCategoryDetail;
         [lblName2 setTextColor:[UIColor grayColor]];
         [lblName setTextColor:[UIColor colorWithRed:49.0/255.0 green:191.0/255.0 blue:180.0/255.0 alpha:1.0]];
         [lblName2 setText:@"Lorem Ipsum proin gravida nibh vel velit auctor aliquet . Aenean sollicitudin .lorem quis "];
-
+        
     }
     
     
@@ -123,7 +123,7 @@ NSArray *arraymedicationCategoryDetail;
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
-   
+    
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     NSLog(@"didDeselectRowAtIndexPath");
 }
@@ -140,7 +140,7 @@ NSArray *arraymedicationCategoryDetail;
     }
     else
     {
-    return 110;
+        return 110;
     }
 }
 
@@ -151,13 +151,13 @@ NSArray *arraymedicationCategoryDetail;
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

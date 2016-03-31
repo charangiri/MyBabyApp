@@ -19,7 +19,8 @@ NSArray *labelArrayGrowthSummary;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-     labelArrayGrowthSummary=[NSArray arrayWithObjects:@"Percentiles of Head Circumference-for-age,50",@"Percentiles of weight-for-age,50",@"Percentiles of height-for-age,50",@"Percentiles of Body Mass Indec-for-age,60",@"Percentiles of Hearing-for-age,50",@"Percentiles of Eye sight-for-age,30", nil];
+    self.navigationItem.title =@"Growth Summary";
+    labelArrayGrowthSummary=[NSArray arrayWithObjects:@"Percentiles of Head Circumference-for-age,50",@"Percentiles of weight-for-age,50",@"Percentiles of height-for-age,50",@"Percentiles of Body Mass Indec-for-age,60",@"Percentiles of Hearing-for-age,50",@"Percentiles of Eye sight-for-age,30", nil];
     
     UIView *v=[[UIView alloc] initWithFrame:CGRectMake(0, 60, self.view.frame.size.width, 140)];
     [v setBackgroundColor:[UIColor colorWithRed:235.0/255.0 green:235.0/255.0 blue:240.0/255.0 alpha:1.0]];
@@ -43,19 +44,19 @@ NSArray *labelArrayGrowthSummary;
     
     UILabel *lblWeight1,*lblWeightValue1,*lblLength1,*lblLengthValue1,*lblCircum1,*lblCircumValue1;
     
-lblWeight1=[[UILabel alloc] initWithFrame:CGRectMake(8,0, (v2.frame.size.width*70)/100-15,(v2.frame.size.height/2)/2)];
-lblWeightValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,(v2.frame.size.height/2)/2, (v2.frame.size.width*70)/100-15,( v2.frame.size.height/2)/2)];
+    lblWeight1=[[UILabel alloc] initWithFrame:CGRectMake(8,0, (v2.frame.size.width*70)/100-15,(v2.frame.size.height/2)/2)];
+    lblWeightValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,(v2.frame.size.height/2)/2, (v2.frame.size.width*70)/100-15,( v2.frame.size.height/2)/2)];
     
     
-lblLength1=[[UILabel alloc] initWithFrame:CGRectMake((v2.frame.size.width*70)/100+8,0,(v2.frame.size.width*30)/100-15,( v2.frame.size.height/2)/2)];
-lblLengthValue1=[[UILabel alloc] initWithFrame:CGRectMake((v2.frame.size.width*70)/100+8,(v2.frame.size.height/2)/2,(v2.frame.size.width*30)/100-15,( v2.frame.size.height/2)/2)];
+    lblLength1=[[UILabel alloc] initWithFrame:CGRectMake((v2.frame.size.width*70)/100+8,0,(v2.frame.size.width*30)/100-15,( v2.frame.size.height/2)/2)];
+    lblLengthValue1=[[UILabel alloc] initWithFrame:CGRectMake((v2.frame.size.width*70)/100+8,(v2.frame.size.height/2)/2,(v2.frame.size.width*30)/100-15,( v2.frame.size.height/2)/2)];
     
     
-lblCircum1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height/2,v2.frame.size.width-15,(v2.frame.size.height/2)/2)];
-lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height/2+(v2.frame.size.height/2)/2, v2.frame.size.width-15,( v2.frame.size.height/2)/2)];
+    lblCircum1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height/2,v2.frame.size.width-15,(v2.frame.size.height/2)/2)];
+    lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height/2+(v2.frame.size.height/2)/2, v2.frame.size.width-15,( v2.frame.size.height/2)/2)];
     
     
-
+    
     [v2 addSubview:lblWeight1];
     [v2 addSubview:lblWeightValue1];
     
@@ -64,7 +65,7 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
     
     [v2 addSubview:lblCircum1];
     [v2 addSubview:lblCircumValue1];
-
+    
     
     lblWeight1.text=@"WEIGHT";
     lblLength1.text=@"LENGTH";
@@ -73,7 +74,7 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
     lblWeightValue1.text=@"5.68kg";
     lblLengthValue1.text=@"60cm";
     lblCircumValue1.text=@"39.5cm";
-
+    
     [lblWeightValue1 setTextColor:[UIColor colorWithRed:49.0/255.0 green:191.0/255.0 blue:180.0/255.0 alpha:1.0]];
     //[lblWeightValue1 setTextAlignment:NSTextAlignmentCenter];
     
@@ -81,8 +82,8 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
     //[lblLengthValue1 setTextAlignment:NSTextAlignmentCenter];
     
     [lblCircumValue1 setTextColor:[UIColor colorWithRed:49.0/255.0 green:191.0/255.0 blue:180.0/255.0 alpha:1.0]];
-   //[lblCircumValue1 setTextAlignment:NSTextAlignmentCenter];
-
+    //[lblCircumValue1 setTextAlignment:NSTextAlignmentCenter];
+    
     growthSummaryTable=[[UITableView alloc] initWithFrame:CGRectMake(0, v2.frame.origin.y+v2.frame.size.height+10, self.view.frame.size.width, self.view.frame.size.height-(v2.frame.origin.y+v2.frame.size.height+20))];
     [self.view addSubview:growthSummaryTable];
     growthSummaryTable.dataSource=self;
@@ -130,8 +131,8 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
     
     
     [cell setBackgroundColor:[UIColor whiteColor]];
-
-        cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
+    
+    cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
     
     
     
@@ -141,10 +142,10 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
     NSString *s=@".0%";
     [lblName2 setText:[NSString stringWithFormat:@"%d%@",(int)n,s]];
     [progress setProgress:n/100.0];
-
+    
     [progress setUserInteractionEnabled:NO];
     [lblName2 setTextColor:[UIColor colorWithRed:49.0/255.0 green:191.0/255.0 blue:180.0/255.0 alpha:1.0]];
-
+    
     return cell;
     
 }
@@ -154,10 +155,10 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
 {
-  //  [[NSUserDefaults standardUserDefaults] setObject:[labelArray objectAtIndex:indexPath.row] forKey:@"selectedScreenLbl"];
+    //  [[NSUserDefaults standardUserDefaults] setObject:[labelArray objectAtIndex:indexPath.row] forKey:@"selectedScreenLbl"];
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     NSLog(@"didDeselectRowAtIndexPath");
-     //  [self performSegueWithIdentifier:@"parentalconcernsegu" sender:self];
+    [self performSegueWithIdentifier:@"screeningsumarysegu" sender:self];
     
 }
 
@@ -177,13 +178,13 @@ lblCircumValue1=[[UILabel alloc] initWithFrame:CGRectMake(8,v2.frame.size.height
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
